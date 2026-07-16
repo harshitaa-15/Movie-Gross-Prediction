@@ -100,6 +100,16 @@ Model Evaluation
 
 ---
 
+## Application Preview
+
+The application provides an interactive interface for predicting movie box office gross revenue using Machine Learning.
+
+<p align="center">
+  <img src="Image/application_preview.png" alt="Movie Gross Prediction Application" width="100%">
+</p>
+
+---
+
 ## Dataset Description
 
 The dataset for this model is taken from kaggle and can ne found on this link: 'https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows'.
