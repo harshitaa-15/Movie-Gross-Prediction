@@ -112,35 +112,45 @@ The application provides an interactive interface for predicting movie box offic
 
 ## Dataset Description
 
-The dataset for this model is taken from kaggle and can ne found on this link: 'https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows'.
+This project uses the **IMDb Top 1000 Movies and TV Shows** dataset obtained from Kaggle. The dataset contains historical information about the top-rated movies and TV shows listed on IMDb, including their ratings, genres, directors, cast members, runtime, and box office gross revenue.
 
-**Data** :-
+The dataset was used to train a Machine Learning model for predicting the **estimated box office gross revenue** of a movie based on its key attributes.
 
-- `Poster_Link` - Link of the poster that imdb using
-- `Series_Title` = Name of the movie
-- `Released_Year` - Year at which that movie released
-- `Certificate` - Certificate earned by that movie
-- `Runtime` - Total runtime of the movie
-- `Genre` - Genre of the movie
-- `IMDB_Rating` - Rating of the movie at IMDB site
-- `Overview` - mini story/ summary
-- `Meta_score` - Score earned by the movie
-- `Director` - Name of the Director
-- `Star1,Star2,Star3,Star4` - Name of the Stars
-- `No_of_votes` - Total number of votes
-- `Gross` - Money earned by that movie
+### Dataset Source
+
+**IMDb Top 1000 Movies and TV Shows**  
+https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
+
+### Dataset Features
+
+| Feature | Description |
+|---------|-------------|
+| Series_Title | Title of the movie |
+| Released_Year | Release year of the movie |
+| Certificate | Movie certification (e.g., U, UA, PG-13, R) |
+| Runtime | Duration of the movie in minutes |
+| Genre | Primary genre of the movie |
+| IMDB_Rating | IMDb user rating |
+| Meta_score | Metacritic score |
+| Director | Director of the movie |
+| Star1, Star2, Star3, Star4 | Lead cast members |
+| No_of_votes | Total number of IMDb user votes |
+| Gross | Box office gross revenue (Target Variable) |
 
 ---
 
 ## Data Preprocessing
 
-- We removed NULL values instead of filling them.
-- We also Remove the following columns:
-   - Poster_Link
-   - Overview
-- We didn't handle outliers.
+The following preprocessing steps were performed before model training:
+
+- Removed records containing missing values.
+- Dropped irrelevant features (`Poster_Link` and `Overview`).
+- Applied feature scaling using StandardScaler.
+- Prepared the processed dataset for model training and evaluation.
+
 
 ---
+
 
 ## Repository Contents
 
