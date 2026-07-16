@@ -71,7 +71,7 @@ Movie-Gross-Prediction
 
 ---
 
-## Machine Learning Model
+## Model Information
 
 Algorithm Used
 
@@ -110,7 +110,15 @@ The application provides an interactive interface for predicting movie box offic
 
 ---
 
-## Dataset Description
+## Live Demo
+
+Try the deployed application:
+
+https://moviesuccess.streamlit.app/
+
+---
+
+## Dataset
 
 This project uses the **IMDb Top 1000 Movies and TV Shows** dataset obtained from Kaggle. The dataset contains historical information about the top-rated movies and TV shows listed on IMDb, including their ratings, genres, directors, cast members, runtime, and box office gross revenue.
 
