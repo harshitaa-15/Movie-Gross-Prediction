@@ -22,9 +22,6 @@ The project demonstrates the complete data science workflow, including data prep
 
 
 
-
-
-
 ## Technology Stack
 
 | Category | Technologies |
