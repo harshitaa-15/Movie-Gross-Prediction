@@ -1,6 +1,5 @@
 <div align="center">
 
-
 # Movie Gross Prediction
 
 ### End-to-End Machine Learning Project for Predicting Movie Box Office Revenue
