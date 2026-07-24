@@ -8,8 +8,6 @@ from src.sidebar_ui import sidebar_config
 
 
 
-
-
 page_config()
 
 main_config()
