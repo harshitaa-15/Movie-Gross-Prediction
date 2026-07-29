@@ -10,7 +10,6 @@ page_config()
 
 
 
-
 main_config()
 
 sidebar_config()
