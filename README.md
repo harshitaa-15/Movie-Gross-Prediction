@@ -2,6 +2,7 @@
 
 # Movie Gross Prediction
 
+
 ### End-to-End Machine Learning Project for Predicting Movie Box Office Revenue
 
 <img src="https://media.licdn.com/dms/image/v2/C4D12AQGRvo4AfaTd2Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1642587252148?e=2147483647&v=beta&t=HBwScRGPXfENN10cZ2A591eVsq-RhDJ5ngGK5XgO6BQ"
