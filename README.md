@@ -12,6 +12,7 @@
 
 ---
 
+
 ## Project Overview
 
 Movie Gross Prediction is an end-to-end Machine Learning project that predicts the estimated box office gross revenue of a movie using historical IMDb movie data.
